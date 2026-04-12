@@ -1,34 +1,41 @@
-# Available .LIVING One-Word Domains (5,622,442)
+# Available .LIVING One-Word Domains (9,646)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C642%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-5%2C622%2C442%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C646%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C646%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated public extract of available and resale .living one-word domains from Unique Domains.
+Daily-updated dataset of available and resale .living one-word domains from Unique Domains.
 
-> **Important:** this repository is a **public 9,642-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **5,622,442 domains** on the canonical page below.
+> **Note:** this repository currently mirrors the full live catalog for this exact search.
+> Unique Domains counts can still change as the search refreshes.
 
-**Last updated:** 2026-04-09  
+**Public extract:** 9,646 rows · **Live catalog:** 9,646 domains
+
+**Last updated:** 2026-04-12  
 **Canonical page:** `https://unique.domains/domains/tld/living`  
 **Best for:** founders, investors, studios
 
 ---
 
 <p align="center">
-  <a href="https://unique.domains/domains/tld/living?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_open_search"><b>Open live .LIVING search</b></a> ·
-  <a href="https://unique.domains/domains/tld/living?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_create_radar"><b>Create .LIVING Radar</b></a> ·
-  <a href="https://unique.domains/domains/tld/living?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_start_project"><b>Start a naming Project</b></a> ·
-  <a href="./living.csv"><b>Download CSV</b></a> ·
-  <a href="./living.json"><b>Download JSON</b></a> ·
-  <a href="https://unique.domains/technology?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_methodology"><b>Methodology</b></a> ·
-  <a href="https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_api_docs"><b>API docs</b></a>
+  <a href="https://unique.domains/domains/tld/living?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_open_search"><b>🗂️ Open live database</b></a> ·
+  <b>⬇️ Download sample</b>: <a href="./living.csv">CSV</a> / <a href="./living.json">JSON</a>
+  · <a href="https://unique.domains/technology?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_methodology"><b>🧪 Methodology</b></a>
+  · <a href="https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_api_docs"><b>🧰 API docs</b></a>
 </p>
+
+---
+
+➡️ **Investors:** [Create a Radar from this .LIVING search](https://unique.domains/domains/tld/living?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_create_radar)  
+➡️ **Founders:** [Start a Project from this .LIVING search](https://unique.domains/domains/tld/living?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_start_project)  
+➡️ **Builders:** [Connect to our API](https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_api_docs)
+
+---
 
 ## 📦 What this repository contains
 
@@ -36,35 +43,13 @@ This repository is the public extract for Unique Domains' .LIVING one-word domai
 
 ### Files
 
-- `living.csv` — public CSV extract (9,642 rows)
-- `living.json` — public JSON extract (9,642 rows)
+- `living.csv` — public CSV extract (9,646 rows)
+- `living.json` — public JSON extract (9,646 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
 - `CITATION.cff` — machine-readable dataset citation metadata
 - `LICENSE` — terms for the public extract
-- `assets/chart-demand-buckets.png` — generated demand-buckets chart
-
-### Use this repo to
-
-- inspect a public sample
-- download CSV or JSON
-- cite the dataset
-- understand the fields and scoring inputs
-
-### Use the live page to
-
-- keep the exact search context
-- search the full .LIVING catalog
-- filter by price, demand, status, spelling risk, and fit
-- save the exact search as a Radar
-- turn the search into a founder Project
-
-## 📊 Snapshot of the live .LIVING catalog
-
-![Demand buckets across the live search](./assets/chart-demand-buckets.png)
-
-**Why this chart:** it gives a fast overview of the live search composition using the same preview payload that supplies the README counts.
 
 ## 🧭 Quick start
 
@@ -77,28 +62,46 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain            | status    | purchase_price | renewal_price | attractiveness | demand | length | registrar       |
-| ----------------- | --------- | -------------- | ------------- | -------------- | ------ | ------ | --------------- |
-| dragon.living     | available | $48.98         | —             | 78             | 50     | 6      | namecheap       |
-| absolute.living   | resell    | $7.99          | $59.99        | 80             | 32     | 8      | GoDaddy         |
-| converse.living   | premium   | $455           | $650          | 64             | 73     | 8      | namecheap       |
-| wizard.living     | available | $48.98         | —             | 118            | 45     | 6      | namecheap       |
-| outdoors.living   | resell    | $48.98         | —             | 88             | 18     | 8      | Dynadot, LLC    |
-| easy.living       | premium   | $227.50        | $325          | 128            | 68     | 4      | namecheap       |
-| research.living   | available | $48.98         | —             | 92             | 41     | 8      | namecheap       |
-| elderly.living    | resell    | $48.98         | —             | 94             | 11     | 7      | NAMECHEAP       |
-| nationwide.living | premium   | $455           | $650          | 76             | 66     | 10     | namecheap       |
-| instant.living    | available | $48.98         | —             | 108            | 37     | 7      | namecheap       |
-| autonomous.living | resell    | —              | —             | 76             | 43     | 10     | Dynadot, LLC    |
-| power.living      | premium   | $1,300         | $2,600        | 98             | 64     | 5      | namecheap       |
-| nimble.living     | available | $48.98         | —             | 94             | 35     | 6      | namecheap       |
-| shared.living     | resell    | —              | —             | 70             | 39     | 6      | Spaceship, Inc. |
-| seventeen.living  | premium   | $455           | $650          | 84             | 62     | 9      | namecheap       |
-| aaron.living      | available | $48.98         | —             | 88             | 35     | 5      | namecheap       |
-| chatbot.living    | resell    | —              | —             | 82             | 38     | 7      | Spaceship, Inc. |
-| data.living       | premium   | $162.50        | $325          | 70             | 60     | 4      | namecheap       |
-| streaming.living  | available | $48.98         | —             | 88             | 35     | 9      | namecheap       |
-| forward.living    | resell    | —              | —             | 68             | 38     | 7      | Dynadot, LLC    |
+| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
+| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
+| dragon.living     | available | $48.98    | —             | 78             | 48     | 6      | namecheap       |
+| absolute.living   | resell    | $7.99     | $59.99        | 80             | 31     | 8      | GoDaddy         |
+| converse.living   | premium   | $455      | $650          | 64             | 73     | 8      | namecheap       |
+| wizard.living     | available | $48.98    | —             | 118            | 45     | 6      | namecheap       |
+| outdoors.living   | resell    | $48.98    | —             | 88             | 17     | 8      | Dynadot, LLC    |
+| easy.living       | premium   | $227.50   | $325          | 128            | 68     | 4      | namecheap       |
+| research.living   | available | $48.98    | —             | 92             | 39     | 8      | namecheap       |
+| elderly.living    | resell    | $48.98    | —             | 94             | 11     | 7      | NAMECHEAP       |
+| nationwide.living | premium   | $455      | $650          | 76             | 66     | 10     | namecheap       |
+| instant.living    | available | $48.98    | —             | 108            | 37     | 7      | namecheap       |
+| autonomous.living | resell    | —         | —             | 76             | 43     | 10     | Dynadot, LLC    |
+| power.living      | premium   | $1,300    | $2,600        | 98             | 62     | 5      | namecheap       |
+| nimble.living     | available | $48.98    | —             | 94             | 35     | 6      | namecheap       |
+| shared.living     | resell    | —         | —             | 70             | 39     | 6      | Spaceship, Inc. |
+| seventeen.living  | premium   | $455      | $650          | 84             | 62     | 9      | namecheap       |
+| aaron.living      | available | $48.98    | —             | 88             | 35     | 5      | namecheap       |
+| forward.living    | resell    | —         | —             | 68             | 39     | 7      | Dynadot, LLC    |
+| free.living       | premium   | $1,820    | $2,600        | 88             | 59     | 4      | namecheap       |
+| streaming.living  | available | $48.98    | —             | 88             | 35     | 9      | namecheap       |
+| chatbot.living    | resell    | —         | —             | 82             | 38     | 7      | Spaceship, Inc. |
+
+These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
+
+## 🚀 Next move
+
+You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
+
+| GitHub extract          | Unique Domains                                   |
+| ----------------------- | ------------------------------------------------ |
+| 9,646-row public sample | 9,646 live domains                               |
+| Static CSV / JSON       | live search and daily refresh                    |
+| Basic exported fields   | deeper price, demand, risk, and workflow context |
+| No persistence          | Radar, saved search, and alerts                  |
+| No founder workflow     | Project, shortlist, and next-step workflow       |
+
+If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
+
+[Create Radar](https://unique.domains/domains/tld/living?github_intent=radar&utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_create_radar) · [Start Project](https://unique.domains/domains/tld/living?github_intent=project&utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_start_project) · [See pricing](https://unique.domains/pricing?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=related_pricing)
 
 ## 🧱 Field summary
 
@@ -123,7 +126,7 @@ This repository follows the exact public search represented by the canonical pag
 - Counts, prices, and statuses can change over time.
 - Scores are decision-support signals, not guarantees of resale value.
 - Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- The live product contains deeper filters, monitoring, and decision workflows than this public extract.
+- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -140,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-04-09. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-04-12. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
@@ -150,8 +153,9 @@ GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 - [Live .LIVING page](https://unique.domains/domains/tld/living?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_open_search)
 - [Technology and scoring](https://unique.domains/technology?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_methodology)
 - [Pricing](https://unique.domains/pricing?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=related_pricing)
+- [API docs](https://unique.domains/api?utm_source=github&utm_medium=referral&utm_campaign=repo_living_oneword_domains&utm_content=top_api_docs)
 - [Main catalog repo](https://github.com/UniqueDomains/oneword-domains)
 
 ## 📬 Contact
 
-Questions, corrections, or partnership requests: `hello@unique.domains`
+Questions, corrections, or partnership requests: `gaetan@unique.domains`
