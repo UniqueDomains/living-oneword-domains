@@ -77,13 +77,13 @@ print(df.head())
 | autonomous.living | resell    | —         | —             | 76             | 43     | 10     | Dynadot, LLC    |
 | power.living      | premium   | $1,300    | $2,600        | 98             | 62     | 5      | namecheap       |
 | nimble.living     | available | $48.98    | —             | 94             | 35     | 6      | namecheap       |
-| shared.living     | resell    | —         | —             | 70             | 39     | 6      | Spaceship, Inc. |
+| forward.living    | resell    | —         | —             | 68             | 39     | 7      | Dynadot, LLC    |
 | seventeen.living  | premium   | $455      | $650          | 84             | 62     | 9      | namecheap       |
 | aaron.living      | available | $48.98    | —             | 88             | 35     | 5      | namecheap       |
-| forward.living    | resell    | —         | —             | 68             | 39     | 7      | Dynadot, LLC    |
-| free.living       | premium   | $1,820    | $2,600        | 88             | 59     | 4      | namecheap       |
-| streaming.living  | available | $48.98    | —             | 88             | 35     | 9      | namecheap       |
 | chatbot.living    | resell    | —         | —             | 82             | 38     | 7      | Spaceship, Inc. |
+| cloud.living      | premium   | $325      | $650          | 70             | 59     | 5      | namecheap       |
+| streaming.living  | available | $48.98    | —             | 88             | 35     | 9      | namecheap       |
+| shared.living     | resell    | —         | —             | 70             | 37     | 6      | Spaceship, Inc. |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
