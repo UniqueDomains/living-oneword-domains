@@ -1,22 +1,22 @@
-# Available .LIVING One-Word Domains (9,646)
+# Available .LIVING One-Word Domains (12,097)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-9%2C647%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C646%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-12%2C097%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .living one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .living one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **12,097 domains** on the canonical page below.
 
-**Public extract:** 9,647 rows · **Live catalog:** 9,646 domains
+**Public extract:** 1,000 rows · **Live catalog:** 12,097 domains
 
-**Last updated:** 2026-04-13  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/living`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .LIVING one-word domai
 
 ### Files
 
-- `living.csv` — public CSV extract (9,647 rows)
-- `living.json` — public JSON extract (9,647 rows)
+- `living.csv` — public CSV extract (1,000 rows)
+- `living.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| dragon.living     | available | $48.98    | —             | 78             | 48     | 6      | namecheap       |
-| absolute.living   | resell    | $7.99     | $59.99        | 80             | 31     | 8      | GoDaddy         |
-| converse.living   | premium   | $455      | $650          | 64             | 73     | 8      | namecheap       |
-| wizard.living     | available | $48.98    | —             | 118            | 45     | 6      | namecheap       |
-| outdoors.living   | resell    | $48.98    | —             | 88             | 17     | 8      | Dynadot, LLC    |
-| easy.living       | premium   | $227.50   | $325          | 128            | 68     | 4      | namecheap       |
-| research.living   | available | $48.98    | —             | 92             | 39     | 8      | namecheap       |
-| elderly.living    | resell    | $48.98    | —             | 94             | 11     | 7      | NAMECHEAP       |
-| nationwide.living | premium   | $455      | $650          | 76             | 66     | 10     | namecheap       |
-| instant.living    | available | $48.98    | —             | 108            | 37     | 7      | namecheap       |
-| autonomous.living | resell    | —         | —             | 76             | 43     | 10     | Dynadot, LLC    |
-| power.living      | premium   | $1,300    | $2,600        | 98             | 62     | 5      | namecheap       |
-| nimble.living     | available | $48.98    | —             | 94             | 35     | 6      | namecheap       |
-| forward.living    | resell    | —         | —             | 68             | 39     | 7      | Dynadot, LLC    |
-| seventeen.living  | premium   | $455      | $650          | 84             | 62     | 9      | namecheap       |
-| aaron.living      | available | $48.98    | —             | 88             | 35     | 5      | namecheap       |
-| chatbot.living    | resell    | —         | —             | 82             | 38     | 7      | Spaceship, Inc. |
-| cloud.living      | premium   | $325      | $650          | 70             | 59     | 5      | namecheap       |
-| streaming.living  | available | $48.98    | —             | 88             | 35     | 9      | namecheap       |
-| shared.living     | resell    | —         | —             | 70             | 37     | 6      | Spaceship, Inc. |
+| domain               | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| -------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| Ryan.living          | available | $48.98    | —             | 60             | 44     | 4      | namecheap    |
+| happier.living       | resell    | —         | —             | 62             | 16     | 7      | Porkbun LLC  |
+| makers.living        | premium   | $490      | $700          | 62             | 67     | 6      | namecheap    |
+| neuroscience.living  | available | $39.99    | —             | 80             | 37     | 12     | name.com     |
+| indoor.living        | resell    | —         | —             | 72             | 15     | 6      | Dynadot, LLC |
+| RedSox.living        | premium   | $490      | $700          | 72             | 60     | 7      | namecheap    |
+| stories.living       | available | $39.99    | —             | 58             | 36     | 7      | name.com     |
+| regions.living       | premium   | $490      | $700          | 64             | 59     | 7      | namecheap    |
+| Keith.living         | available | $48.98    | —             | 66             | 25     | 5      | namecheap    |
+| keepthechange.living | premium   | $490      | $700          | 46             | 59     | 15     | namecheap    |
+| schools.living       | available | $39.99    | —             | 72             | 24     | 7      | name.com     |
+| agents.living        | premium   | $980      | $1,400        | 56             | 50     | 6      | namecheap    |
+| reports.living       | available | $39.99    | —             | 58             | 24     | 7      | name.com     |
+| coins.living         | premium   | $98       | $140          | 56             | 41     | 5      | namecheap    |
+| superhero.living     | available | $39.99    | —             | 84             | 23     | 9      | name.com     |
+| Tools.living         | premium   | $490      | $700          | 56             | 40     | 5      | namecheap    |
+| holidays.living      | available | $5.49     | $39.99        | 78             | 23     | 8      | namesilo     |
+| lets.living          | premium   | $245      | $350          | 77             | 39     | 4      | namecheap    |
+| motorsport.living    | available | $39.99    | —             | 74             | 23     | 10     | name.com     |
+| justin.living        | premium   | $490      | $700          | 58             | 38     | 7      | namecheap    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 9,647-row public sample | 9,646 live domains                               |
+| 1,000-row public sample | 12,097 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
