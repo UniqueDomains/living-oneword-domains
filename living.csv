@@ -338,6 +338,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 1ef3dd42-8786-450e-883d-c62e523a90a2,scoopup.living,available,39.99,,68,3,8,name.com,,
 1f0439d2-3b4b-40a6-abe8-2f7c3ca4f645,goaroundthehouses.living,available,39.99,,60,0,20,name.com,,
 1f16a8f0-e053-4c70-82c7-17ba1fe09854,dusts.living,premium,98,140,52,3,5,namecheap,,
+1f20a8e9-e3d6-4671-9fdc-8c10fe00aef0,brain.living,resell,,,72,48,5,"Spaceship, Inc.",02/05/2026 15:57,02/05/2027 15:57
 1f27691e-a51a-4c4c-99f9-0740f0a25cd9,fanmail.living,available,39.99,,74,7,8,name.com,,
 1f43c221-228b-4ad3-9059-c5ebadb98326,newsreporter.living,available,39.99,,46,4,13,name.com,,
 1f5a501f-83f4-419b-b7a2-0b2cde3e4c88,manuallabour.living,available,39.99,,58,1,13,name.com,,
@@ -998,4 +999,3 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 574ad858-cc8d-4126-9f94-6b629fdf081d,maketheheadlines.living,available,39.99,,72,0,18,name.com,,
 5757e3f8-d03c-49db-ae17-53201d8ac604,smashup.living,available,39.99,,58,5,8,name.com,,
 575837f9-b2f9-40e2-a1ff-1d905fb590c6,hoho.living,premium,245,350,62,13,5,namecheap,,
-57656610-0b1c-413a-8de1-e1955da15af9,intimewith.living,available,5.49,39.99,52,0,12,namesilo,,
