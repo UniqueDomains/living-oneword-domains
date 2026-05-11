@@ -393,6 +393,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 242cdbeb-45e1-4501-a999-cdcbda31e85c,explanations.living,available,39.99,,50,2,12,name.com,,
 2430c72a-a252-4e5a-957c-a3d198f22f44,communityservice.living,available,39.99,,72,5,17,name.com,,
 24314e2d-38ac-4b6b-bcb7-b73be4430997,manytoone.living,available,39.99,,68,2,11,name.com,,
+2439a4a7-f1f6-476d-a1b2-266970ee55f4,stockmarket.living,premium,,,80,29,12,,,
 244abadf-f2b6-4a94-96ff-9e47f80942b3,planets.living,available,39.99,,60,13,7,name.com,,
 24516a73-3afe-49b4-aca1-dee92900da8d,haveityourway.living,available,39.99,,56,6,16,name.com,,
 2476aafd-9994-47f6-b088-e3763d5213e5,believed.living,available,39.99,,64,3,8,name.com,,
@@ -998,4 +999,3 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 5716e46d-826c-4fd4-871e-b38c844cae55,pads.living,premium,245,350,68,10,4,namecheap,,
 57179095-abbc-4926-838e-4508e37cb68e,sweatshop.living,premium,490,700,56,8,10,namecheap,,
 574ad858-cc8d-4126-9f94-6b629fdf081d,maketheheadlines.living,available,39.99,,72,0,18,name.com,,
-5757e3f8-d03c-49db-ae17-53201d8ac604,smashup.living,available,39.99,,58,5,8,name.com,,
