@@ -473,6 +473,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 2a4c40e0-2083-465a-b353-b78cca20afd1,inducts.living,available,5.49,39.99,50,1,7,namesilo,,
 2a64c332-932f-454f-af07-74f87d36f9a8,menus.living,premium,98,140,54,14,5,namecheap,,
 2a7a9510-8644-4906-b1a5-40d46b9ccf01,abides.living,available,39.99,,70,4,6,name.com,,
+2a933438-e21a-46aa-a2ab-252dff7eb207,electricity.living,premium,,,84,17,11,,,
 2aa65386-fc2a-4b09-81cb-ec9b1a7e19e6,superheroes.living,available,5.49,39.99,66,12,11,namesilo,,
 2ab7fa45-836a-4d60-84eb-90366cb420d9,typed.living,premium,98,140,70,11,5,namecheap,,
 2ad0761f-4222-44a7-9a2d-4107b6db9b23,makefriendswith.living,available,5.49,39.99,58,1,17,namesilo,,
@@ -998,4 +999,3 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 56ddf5d3-8f2d-43ce-9998-aead16b7c565,assuch.living,available,39.99,,66,1,7,name.com,,
 56fbc0ca-d370-4d89-821e-e1e2d5b889af,makesenseof.living,available,39.99,,52,1,13,name.com,,
 5716e46d-826c-4fd4-871e-b38c844cae55,pads.living,premium,245,350,68,10,4,namecheap,,
-57179095-abbc-4926-838e-4508e37cb68e,sweatshop.living,premium,490,700,56,8,10,namecheap,,
