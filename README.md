@@ -83,7 +83,7 @@ print(df.head())
 | lets.living          | premium   | $245      | $350          | 77             | 39     | 4      | namecheap       |
 | holidays.living      | available | $5.49     | $39.99        | 78             | 23     | 8      | namesilo        |
 | justin.living        | premium   | $490      | $700          | 58             | 38     | 7      | namecheap       |
-| motorsport.living    | available | $39.99    | —             | 74             | 23     | 10     | name.com        |
+| Places.living        | available | $48.98    | —             | 74             | 23     | 6      | namecheap       |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
