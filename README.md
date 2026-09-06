@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .living one-word domains fr
 
 **Public extract:** 1,000 rows · **Live catalog:** 20,649 domains · **Median ask:** $101.94 · **High-demand under $2,500:** 53
 
-**Last updated:** 2026-09-05
+**Last updated:** 2026-09-06
 **Canonical page:** `https://unique.domains/domains/tld/living`
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,8 @@ print(df.head())
 
 | domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
 | ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| out.living         | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
+| quiet.living       | premium   | $98       | $140          | high           | low    | 5      | namecheap    |
 | boob.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
 | destiny.living     | resell    | $39.99    | —             | medium         | low    | 7      | Dynadot, LLC |
 | ana.living         | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
@@ -82,8 +84,6 @@ print(df.head())
 | oreo.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
 | JesusChrist.living | resell    | —         | —             | high           | low    | 12     | GoDaddy      |
 | dry.living         | premium   | $910      | $1,300        | high           | low    | 3      | namecheap    |
-| wind.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
-| fat.living         | premium   | $980      | $1,400        | medium         | low    | 3      | namecheap    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-09-05. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-09-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
