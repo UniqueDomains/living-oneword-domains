@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .living one-word domains fr
 
 **Public extract:** 1,000 rows · **Live catalog:** 25,820 domains · **Median ask:** $87.50 · **High-demand under $2,500:** 59
 
-**Last updated:** 2026-09-16
+**Last updated:** 2026-09-17
 **Canonical page:** `https://unique.domains/domains/tld/living`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
-| ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
-| boob.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
-| create.living      | resell    | $5.49     | $39.99        | medium         | medium | 6      | GoDaddy      |
-| ana.living         | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
-| clxx.living        | available | $1.80     | $48.98        | low            | low    | 4      | namecheap    |
-| destiny.living     | resell    | $39.99    | —             | medium         | low    | 7      | Dynadot, LLC |
-| arc.living         | premium   | $455      | $650          | medium         | medium | 3      | namecheap    |
-| html.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
-| rustic.living      | resell    | —         | —             | low            | low    | 6      | GoDaddy      |
-| bug.living         | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
-| ISBN.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
-| assistive.living   | resell    | —         | —             | low            | low    | 9      | GoDaddy      |
-| die.living         | premium   | $980      | $1,400        | medium         | low    | 3      | namecheap    |
-| lxxi.living        | available | $1.80     | $48.98        | low            | low    | 4      | namecheap    |
-| marijuana.living   | resell    | —         | —             | medium         | low    | 9      | Dynadot, LLC |
-| DIY.living         | premium   | $1,960    | $2,800        | high           | low    | 3      | namecheap    |
-| oreo.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
-| autonomous.living  | resell    | —         | —             | high           | medium | 10     | Dynadot, LLC |
-| dry.living         | premium   | $910      | $1,300        | high           | low    | 3      | namecheap    |
-| wind.living        | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
-| JesusChrist.living | resell    | —         | —             | high           | low    | 12     | GoDaddy      |
+| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| out.living        | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
+| quiet.living      | premium   | $98       | $140          | high           | low    | 5      | namecheap    |
+| boob.living       | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
+| create.living     | resell    | $5.49     | $39.99        | medium         | medium | 6      | GoDaddy      |
+| ana.living        | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
+| clxx.living       | available | $1.80     | $48.98        | low            | low    | 4      | namecheap    |
+| destiny.living    | resell    | $39.99    | —             | medium         | low    | 7      | Dynadot, LLC |
+| arc.living        | premium   | $455      | $650          | medium         | medium | 3      | namecheap    |
+| html.living       | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
+| rustic.living     | resell    | —         | —             | low            | low    | 6      | GoDaddy      |
+| bug.living        | premium   | $980      | $1,400        | high           | low    | 3      | namecheap    |
+| ISBN.living       | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
+| assistive.living  | resell    | —         | —             | low            | low    | 9      | GoDaddy      |
+| die.living        | premium   | $980      | $1,400        | medium         | low    | 3      | namecheap    |
+| lxxi.living       | available | $1.80     | $48.98        | low            | low    | 4      | namecheap    |
+| marijuana.living  | resell    | —         | —             | medium         | low    | 9      | Dynadot, LLC |
+| DIY.living        | premium   | $1,960    | $2,800        | high           | low    | 3      | namecheap    |
+| oreo.living       | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
+| autonomous.living | resell    | —         | —             | high           | medium | 10     | Dynadot, LLC |
+| dry.living        | premium   | $910      | $1,300        | high           | low    | 3      | namecheap    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-09-17. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
