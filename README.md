@@ -1,10 +1,10 @@
-# Available .LIVING One-Word Domains (32,179)
+# Available .LIVING One-Word Domains (33,723)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-32%2C179%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-33%2C723%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .living one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **32,179 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **33,723 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 32,179 domains · **Median ask:** $131.23 · **High-demand under $2,500:** 130
+**Public extract:** 1,000 rows · **Live catalog:** 33,723 domains · **Median ask:** $129.69 · **High-demand under $2,500:** 130
 
-**Last updated:** 2026-10-01
+**Last updated:** 2026-10-02
 **Canonical page:** `https://unique.domains/domains/tld/living`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain            | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| ----------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| bris.living       | available | $5.49     | $39.99        | high           | low    | 4      | namesilo        |
-| progress.living   | resell    | $39.99    | $59.99        | high           | low    | 8      | Dynadot, LLC    |
-| awn.living        | premium   | $1,107    | $1,107        | high           | low    | 3      | namesilo        |
-| cour.living       | available | $1.34     | $31.25        | high           | low    | 4      | spaceship       |
-| therapy.living    | resell    | —         | —             | high           | low    | 7      | NAMECHEAP       |
-| bow.living        | premium   | $1,107    | $1,107        | high           | low    | 3      | namesilo        |
-| fars.living       | available | $1.34     | $31.25        | medium         | low    | 4      | spaceship       |
-| beachfront.living | resell    | —         | —             | high           | low    | 10     | Spaceship, Inc. |
-| bsc.living        | premium   | $302.50   | $302.50       | high           | low    | 3      | namesilo        |
-| loeb.living       | available | $0.99     | $59.99        | high           | low    | 4      | godaddy         |
-| cic.living        | premium   | $362.45   | $517.70       | high           | low    | 3      | spaceship       |
-| naia.living       | available | $1.34     | $31.25        | high           | low    | 4      | spaceship       |
-| cnn.living        | premium   | $490      | $700          | high           | low    | 3      | namecheap       |
-| yall.living       | available | $5.49     | $39.99        | medium         | low    | 4      | namesilo        |
-| csf.living        | premium   | $181.33   | $258.95       | medium         | low    | 3      | spaceship       |
-| artie.living      | available | $5.49     | $39.99        | medium         | low    | 5      | namesilo        |
-| dad.living        | premium   | $1,107    | $1,107        | high           | low    | 3      | namesilo        |
-| auden.living      | available | $5.49     | $39.99        | medium         | low    | 5      | namesilo        |
-| dry.living        | premium   | $1,107    | $1,107        | high           | low    | 3      | namesilo        |
-| baron.living      | available | $5.49     | $39.99        | high           | low    | 5      | namesilo        |
+| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| keeping.living   | available | $5.49     | $39.99        | high           | low    | 7      | namesilo     |
+| ohio.living      | premium   | $640      | $640          | high           | low    | 4      | namesilo     |
+| paperback.living | available | $1.80     | $48.98        | high           | low    | 9      | namecheap    |
+| bris.living      | available | $5.49     | $39.99        | high           | low    | 4      | namesilo     |
+| progress.living  | resell    | $39.99    | $59.99        | high           | low    | 8      | Dynadot, LLC |
+| awn.living       | premium   | $1,107    | $1,107        | high           | low    | 3      | namesilo     |
+| cour.living      | available | $1.34     | $31.25        | high           | low    | 4      | spaceship    |
+| therapy.living   | resell    | —         | —             | high           | low    | 7      | NAMECHEAP    |
+| bnp.living       | premium   | $227.50   | $325          | high           | low    | 3      | namecheap    |
+| fars.living      | available | $1.34     | $31.25        | medium         | low    | 4      | spaceship    |
+| bow.living       | premium   | $1,107    | $1,107        | high           | low    | 3      | namesilo     |
+| loeb.living      | available | $0.99     | $59.99        | high           | low    | 4      | godaddy      |
+| bsc.living       | premium   | $302.50   | $302.50       | high           | low    | 3      | namesilo     |
+| naia.living      | available | $1.34     | $31.25        | high           | low    | 4      | spaceship    |
+| cic.living       | premium   | $362.45   | $517.70       | high           | low    | 3      | spaceship    |
+| yall.living      | available | $30.20    | $30.20        | medium         | low    | 4      | cloudflare   |
+| cnn.living       | premium   | $550      | $550          | high           | low    | 3      | dynadot      |
+| aimee.living     | available | $5.49     | $39.99        | medium         | low    | 5      | namesilo     |
+| csf.living       | premium   | $181.33   | $258.95       | medium         | low    | 3      | spaceship    |
+| artie.living     | available | $5.49     | $39.99        | medium         | low    | 5      | namesilo     |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 32,179 live domains                        |
+| 1,000-row public sample | 33,723 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
 | Basic exported fields   | 130 high-demand names under $2,500         |
 | No persistence          | Radar, saved search, and alerts            |
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-10-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .LIVING One-Word Domains*. Version 2026-10-02. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
